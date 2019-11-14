@@ -1,0 +1,7 @@
+C:\Workspace\CSharp\New folder (2)\Paycompute.Entity\bin\Debug\netcoreapp2.2\Paycompute.Entity.deps.json
+C:\Workspace\CSharp\New folder (2)\Paycompute.Entity\bin\Debug\netcoreapp2.2\Paycompute.Entity.dll
+C:\Workspace\CSharp\New folder (2)\Paycompute.Entity\bin\Debug\netcoreapp2.2\Paycompute.Entity.pdb
+C:\Workspace\CSharp\New folder (2)\Paycompute.Entity\obj\Debug\netcoreapp2.2\Paycompute.Entity.AssemblyInfoInputs.cache
+C:\Workspace\CSharp\New folder (2)\Paycompute.Entity\obj\Debug\netcoreapp2.2\Paycompute.Entity.AssemblyInfo.cs
+C:\Workspace\CSharp\New folder (2)\Paycompute.Entity\obj\Debug\netcoreapp2.2\Paycompute.Entity.dll
+C:\Workspace\CSharp\New folder (2)\Paycompute.Entity\obj\Debug\netcoreapp2.2\Paycompute.Entity.pdb
