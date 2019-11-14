@@ -12143,11 +12143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\CSharp\\New folder (2)\\Paycompute\\Paycompute.csproj",
+      "projectUniqueName": "C:\\Workspace\\CSharp\\Paycompute\\Paycompute\\Paycompute.csproj",
       "projectName": "Paycompute",
-      "projectPath": "C:\\Workspace\\CSharp\\New folder (2)\\Paycompute\\Paycompute.csproj",
+      "projectPath": "C:\\Workspace\\CSharp\\Paycompute\\Paycompute\\Paycompute.csproj",
       "packagesPath": "C:\\Users\\Tin\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\CSharp\\New folder (2)\\Paycompute\\obj\\",
+      "outputPath": "C:\\Workspace\\CSharp\\Paycompute\\Paycompute\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -12168,11 +12168,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Workspace\\CSharp\\New folder (2)\\Paycompute.Entity\\Paycompute.Entity.csproj": {
-              "projectPath": "C:\\Workspace\\CSharp\\New folder (2)\\Paycompute.Entity\\Paycompute.Entity.csproj"
+            "C:\\Workspace\\CSharp\\Paycompute\\Paycompute.Entity\\Paycompute.Entity.csproj": {
+              "projectPath": "C:\\Workspace\\CSharp\\Paycompute\\Paycompute.Entity\\Paycompute.Entity.csproj"
             },
-            "C:\\Workspace\\CSharp\\New folder (2)\\Paycompute.Services\\Paycompute.Services.csproj": {
-              "projectPath": "C:\\Workspace\\CSharp\\New folder (2)\\Paycompute.Services\\Paycompute.Services.csproj"
+            "C:\\Workspace\\CSharp\\Paycompute\\Paycompute.Services\\Paycompute.Services.csproj": {
+              "projectPath": "C:\\Workspace\\CSharp\\Paycompute\\Paycompute.Services\\Paycompute.Services.csproj"
             }
           }
         }

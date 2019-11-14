@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\CSharp\\New folder (2)\\Paycompute.Entity\\Paycompute.Entity.csproj",
+      "projectUniqueName": "C:\\Workspace\\CSharp\\Paycompute\\Paycompute.Entity\\Paycompute.Entity.csproj",
       "projectName": "Paycompute.Entity",
-      "projectPath": "C:\\Workspace\\CSharp\\New folder (2)\\Paycompute.Entity\\Paycompute.Entity.csproj",
+      "projectPath": "C:\\Workspace\\CSharp\\Paycompute\\Paycompute.Entity\\Paycompute.Entity.csproj",
       "packagesPath": "C:\\Users\\Tin\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\CSharp\\New folder (2)\\Paycompute.Entity\\obj\\",
+      "outputPath": "C:\\Workspace\\CSharp\\Paycompute\\Paycompute.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
