@@ -169,7 +169,7 @@ namespace Paycompute.Controllers
         }
 
         [HttpGet]
-        public IActionResult Details(int id)
+        public IActionResult Detail(int id)
         {
             var employee = _employeeService.GetById(id);
             if(employee == null)
