@@ -37,7 +37,7 @@ namespace Paycompute.Controllers
             return View(employees);
         }
 
-        [HttpGet]
+
         public IActionResult Create()
         {
             var model = new EmployeeCreateViewModel();

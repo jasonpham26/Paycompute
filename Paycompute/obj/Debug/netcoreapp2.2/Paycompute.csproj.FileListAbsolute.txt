@@ -78,3 +78,4 @@ C:\Workspace\CSharp\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Paycompute.Vie
 C:\Workspace\CSharp\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Paycompute.csproj.CopyComplete
 C:\Workspace\CSharp\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Paycompute.dll
 C:\Workspace\CSharp\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Paycompute.pdb
+C:\Workspace\CSharp\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Index.cshtml.g.cs
