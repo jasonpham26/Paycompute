@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Paycompute.Controllers
 {
+    [Authorize(Roles = "Admin,Manager")]
     public class PayController : Controller
     {
         private readonly IPayComputationService _payComputationService;
@@ -56,7 +57,7 @@ namespace Paycompute.Controllers
             return View(payRecords);
         }
 
-
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             ViewBag.employees = _employeeService.GetAllEmployeesForPayroll();
@@ -67,6 +68,7 @@ namespace Paycompute.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(PaymentRecordCreateViewModel model)
         {
             if (ModelState.IsValid)
@@ -181,14 +183,14 @@ namespace Paycompute.Controllers
                 NetPayment = paymentRecord.NetPayment
             };
             return View(model);
-
+            // return new ViewAsPdf("Payslip", model);
         }
 
         public IActionResult GeneratePayslipPdf(int id)
         {
             var payslip = new ActionAsPdf("Payslip", new { id = id })
             {
-                FileName = "payslip.pdf"
+                FileName = "playslip.pdf"
             };
             return payslip;
         }

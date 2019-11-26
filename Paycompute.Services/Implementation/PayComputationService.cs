@@ -20,7 +20,7 @@ namespace Paycompute.Services.Implementation
         }
         public decimal ContractualEarnings(decimal contractualHours, decimal hoursWorked, decimal hourlyRate)
         {
-            if(hoursWorked < contractualHours)
+            if (hoursWorked < contractualHours)
             {
                 contractualEarnings = hoursWorked * hourlyRate;
             }
@@ -52,7 +52,7 @@ namespace Paycompute.Services.Implementation
         public PaymentRecord GetById(int id) =>
             _context.PaymentRecords.Where(pay => pay.Id == id).FirstOrDefault();
 
-        public decimal NetPay(decimal totalEarnings, decimal totalDeduction) 
+        public decimal NetPay(decimal totalEarnings, decimal totalDeduction)
             => totalEarnings - totalDeduction;
 
         public decimal OvertimeEarnings(decimal overtimeRate, decimal overtimeHours)
@@ -60,7 +60,7 @@ namespace Paycompute.Services.Implementation
 
         public decimal OvertimeHours(decimal hoursWorked, decimal contractualHours)
         {
-            if(hoursWorked <= contractualHours)
+            if (hoursWorked <= contractualHours)
             {
                 overtimeHours = 0.00m;
             }
@@ -78,5 +78,8 @@ namespace Paycompute.Services.Implementation
 
         public decimal TotalEarnings(decimal overtimeEarnings, decimal contractualEarnings)
             => overtimeEarnings + contractualEarnings;
+
+        public TaxYear GetTaxYearById(int id)
+            => _context.TaxYears.Where(year => year.Id == id).FirstOrDefault();
     }
 }

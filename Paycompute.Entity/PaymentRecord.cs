@@ -18,7 +18,7 @@ namespace Paycompute.Entity
         public DateTime PayDate { get; set; }
         public string PayMonth { get; set; }
         [ForeignKey("TaxYear")]
-        public int TaxYearID { get; set; }
+        public int TaxYearId { get; set; }
         public TaxYear TaxYear { get; set; }
         public string TaxCode { get; set; }
         [Column(TypeName = "money")]
